@@ -36,5 +36,8 @@ out/
 ### VS Code ###
 .vscode/
 
-### NodeJS files ###
+### NodeJS files and directories ###
 node_modules/
+
+### Generated static files ###
+src/main/resources/static/css/main.css

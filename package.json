@@ -1,7 +1,0 @@
-{
-  "name": "research-spring-boot",
-  "private": true,
-	"devDependencies": {
-		"tailwindcss": "^3.4.17"
-	}
-}
