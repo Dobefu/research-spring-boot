@@ -3,4 +3,4 @@
 default: build
 
 build:
-	./gradlew
+	@./gradlew bootRun
