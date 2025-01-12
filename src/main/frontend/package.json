@@ -2,7 +2,8 @@
   "name": "research-spring-boot",
   "private": true,
   "scripts": {
-    "build": "tailwindcss -i ./css/main.css -o ../resources/static/css/main.css"
+    "build": "tailwindcss -i ./css/main.css -o ../resources/static/css/main.css",
+    "dev": "tailwindcss -i ./css/main.css -o ../resources/static/css/main.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.17"

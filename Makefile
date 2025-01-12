@@ -6,13 +6,16 @@ build:
 	@./gradlew build
 
 dev:
-	@make -j2 dev-run dev-compile
+	@make -j3 dev-run dev-compile-backend dev-compile-frontend
 
 dev-run:
 	@./gradlew bootRun
 
-dev-compile:
+dev-compile-backend:
 	@./gradlew -t classes
+
+dev-compile-frontend:
+	@cd src/main/frontend && pnpm dev
 
 test:
 	@./gradlew test
